@@ -66,9 +66,7 @@ public class Cart {
         this.userList = userList;
     }
 
-    public void addProduct(Product product) {
-        productsList.add(product);
-    }
+    public void addProduct(Product product) { productsList.add(product); }
 
     public void removeProduct(Product product) {
         productsList.remove(product);

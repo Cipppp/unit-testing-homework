@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-public class WishlistController {
+public class  WishlistController {
     private final WishlistService wishlistService;
 
     @GetMapping("/wishlist")
